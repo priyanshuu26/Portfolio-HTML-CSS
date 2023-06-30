@@ -662,7 +662,7 @@ text-shadow:
     background-color: #fff;
     color:#640a98;
     padding: 5px;
-    margin-top: 4px;
+    
 }
 
 
@@ -929,10 +929,18 @@ form input,form textarea{
       background: none;
       color:#914cb9;
     }
+    #contact{
+        height: auto;
+        padding: 30px;
+    }
   }
 @media (max-width:768px) {
     .main-content h3{
         width:fit-content;
+    }
+    #contact{
+        height: auto;
+        padding: 30px;
     }
     .name{
         width:40%;
@@ -998,12 +1006,12 @@ form input,form textarea{
     .about-content-box {
         margin: 30% 0;
     }
-    .page1,.page2,.page3,.page4,.page5,#contact{
+    .page1,.page2,.page3,.page4,.page5{
         height: auto;
         padding: 30px;
     }
     .logo{
-        padding-left:20px;
+        padding-left:0;
     }
     .name{
         flex-shrink: 0;
@@ -1042,27 +1050,7 @@ form input,form textarea{
     }
 
 }
-@media (max-width:376px){
-    .main-content h2 {
-        font-size: 22px;
-    }
-    .main-content h1 {
-        font-size: 36px;
-    }
-    .main-content h3 {
-        font-size: 12px;
-}
-.about-txt h2 {
-    font-size: 39px;
-}
-.main-content{
-    padding-top: 21%;
-}
 
-.about-txt p {
-    font-size: 12px;
-}
-}
 @media (max-width: 1000px){
     nav{
       padding: 0 40px 0 50px;
@@ -1109,3 +1097,40 @@ form input,form textarea{
       color:#640a98
     }
   }
+  @media (max-width:412px){
+    .main-content h2 {
+        font-size: 22px;
+    }
+    .main-content h1 {
+        font-size: 36px;
+    }
+    .main-content h3 {
+        font-size: 12px;
+}
+.about-txt h2 {
+    font-size: 39px;
+}
+.main-content{
+    padding-top: 21%;
+}
+
+.about-txt p {
+    font-size: 12px;
+}
+.skillcontent .bx {
+    font-size: 42px;
+
+}
+.skillcontent h3 {
+    font-size: 14px;
+}
+.skillcontent a {
+    width: 126px; ;
+}
+.footer span{
+    padding-left: 42px;
+}
+.footer{
+    font-size: 10px;
+}
+}
